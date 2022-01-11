@@ -1,0 +1,48 @@
+   
+    .contai{
+        background-color: #23263a;;
+        height:350px;
+        overflow: hidden;
+    }
+
+
+    .contai h1{
+        color: white;
+        text-align: center;
+        padding-top: 4rem;
+        font-weight: bold;
+        font-size: 2.5rem;
+    }
+
+
+    .contai p{
+        color: white;
+        width: 60%;
+        margin: 1.5rem auto;
+        text-align:center;
+    }
+
+ .ic{
+     /* border: 2px solid red; */
+     width: 40%;
+     margin: 2rem  auto;
+
+ }
+
+ .copyright{
+     margin: 2rem auto;
+     color: white;
+     font-size: 15px;
+     text-align: center;
+ }
+
+ @media screen and (max-width:350px) {
+    .contai h1{
+        font-size: 1rem;
+    }
+
+    .copyright{
+        font-size: 10px;
+    }
+     
+ }

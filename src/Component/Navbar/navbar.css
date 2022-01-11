@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: poppins;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap');
+
+
+
+.nav-wrapper{
+    width: 100%;
+    height: 100px;
+    background: #1f2235;
+    /* border: 1px solid #16182c; */
+    position:fixed;
+    /* top: 0; */
+    z-index: 100;
+    /* border: 2px solid; */
+    
+}
+
+.nav__contai{
+    /* border: 2px solid red; */
+    width: 90%;
+    margin: 0 auto;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    height: 90px;
+    
+}
+
+.nav__one{
+   color: honeydew;
+   margin-left: 2rem;
+
+}
+
+.nav__two{display: block;}
+
+.nav__two ul {
+    display: flex;
+    font-size: 1.2rem;
+    /* margin-right: 6rem; */
+    font-weight: 600;
+
+}
+.nav__two, li{
+    padding: 0 15px;
+    color: white;
+    
+   
+}
+.nav__two  ul li a{
+    color: white;
+    transition: 0.3s;
+    letter-spacing: 2px;
+    
+}
+.nav__two ul li a:hover{
+    color:#ff4a57;
+    transition: 0.5s;
+   
+}
+
+.active{
+      border-bottom: 3px solid #ff4a57;
+     
+}
+
+.mob__menu__links{display: flex}
+
+.mob__menu__links ul {
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: 600;
+    /* margin-right: 6rem; */
+
+}
+.mob__menu__links, li{
+    padding: 0 20px;
+    color: white;
+    
+   
+}
+.mob__menu__links  ul li a{
+    color: white;
+    transition: 0.3s;
+    letter-spacing: 2px;
+    
+}
+.mob__menu__links ul li a:hover{
+    color:#ff4a57;
+    transition: 0.5s;
+   
+}
+
+.mob-opt{display: none;}
+/* 
+.talk_btn{margin: -0.6rem 0;}
+.talk_btn button{
+    border: 3px solid #ff4a57;
+    position: absolute;
+    height: 55px;
+    width: 120px;
+    background: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.talk_btn button:hover{
+    background: #ff4a57;
+
+}
+.talk_btn button:active{
+    background: #f30414;
+} */
+
+@media screen and (max-width: 850px) {
+
+
+    .nav__contai{
+        width: 95%;
+    }
+   
+    .nav__two{
+        display: none;
+    }
+
+    .mob-opt{display: block;
+     color:white;
+     position: absolute;
+     right: 2.5rem;
+     top: 2rem;
+
+    }
+
+    .mob__menu__links{
+       
+        justify-content: center;
+        width: 100%;
+        position: absolute;
+        text-align: center;
+        top: 100px;
+        background: rgba(0,0,0,0.80);
+        opacity: 1;
+        left:0;
+        transition: all 0.6s ease-in-out;
+        height: 80vh;
+        
+        
+    }
+
+    .mob__menu__links ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+ 
+
+
+    .mob__menu__links a{
+        color: white;
+        font-weight: 700;
+       
+    }
+/*    
+    ul{width: 100%;} */
+    
+    .list-item{
+        width: 100%;
+        font-size: 1.2rem;
+        letter-spacing: 2px;
+        transition: 0.3s;
+        line-height: 80px;
+        /* border-bottom: 2px solid; */
+    }
+
+    .list-item:hover{
+        transform: scale(1.2);
+        
+        
+    }
+
+    .nav__one img{height: 35px;}
+     
+    .nav__contai{
+        /* border: 2px solid red; */
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+  
+  .mob-opt{margin-right:0rem ;}
+  
+
+
+  
+   
+  }
