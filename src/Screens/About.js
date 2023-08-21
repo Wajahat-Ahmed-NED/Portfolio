@@ -12,8 +12,8 @@ const About = () => {
             About Me <FcAbout />
           </h1>
           <p>
-          I am a passionate Front-End Developer.
-          If you take a look at my Front End Web Development work and feel that I could help you, I’ll do it best for you.
+          I am a passionate Full Stack Developer.
+          If you take a look at my Web and Mobile App Development work and feel that I could help you, I’ll do it best for you.
           </p>
           <div className="underline"></div>
         </section>
@@ -45,23 +45,23 @@ const About = () => {
                 <div className="ab_col_1">
                   <div className="ab_col_in_1">
                     <span>Name:</span>
-                    <p>Mudassir jamal</p>
+                    <p>Wajahat Ahmed</p>
                   </div>
                   <div className="ab_col_in_1">
                     <span>Email:</span>
-                    <p>jamalmudassir65@gmail.com</p>
+                    <p>wajahatahmedwajahat@gmail.com</p>
                   </div>
                 </div>
 
                 <div className="ab_col_2">
                   <div className="ab_col_in_2">
                     <span>Insta:</span>
-                    <p>Mudassir-8486</p>
+                    <p>Wajahat-8486</p>
                   </div>
 
                   <div className="ab_col_in_2">
                     <span>Phone:</span>
-                    <p>0301-2671774</p>
+                    <p>0324-2926776</p>
                   </div>
                 </div>
               </div>
